@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Introduction of Js</title>
+        <style>
+            div{
+                background-color: red;
+                color: black;
+                width: 10rem;
+                height: 10rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Changing HTML content</h1>
+        <h3 id="ex1">Changes Html content</h3>
+        <button onclick='document.getElementById("ex1").innerHTML= "Changed Html content" '>Click me!</button>
+        <h1>Changing HTML attributes</h1>
+        <img id="ex2" src="FOOD1.jpg" alt="biryani"> <br>
+        <button onclick='document.getElementById("ex2").src="food2.jpg"'>Click for food!</button>
+        <h1>Changing CSS styles</h1>
+        <div id="ex3">Box of 10 rem in red color</div>
+        <button onclick='document.getElementById("ex3").style.backgroundColor = "blue"'>Click!</button>
+    </body>
+</html>
